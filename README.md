@@ -12,7 +12,7 @@ static const void *myKey = &myKey;
 
 Cocoapods available simply just add this to your Podfile!
 
-`pod "NSObject+AssociatedObjects", :git => "https://github.com/zwopple/NSObject+AssociatedObjects.git"`
+`pod "NSObject+AssociatedObjects", :git => "https://github.com/zwopple/NSObject-AssociatedObjects.git"`
 
 ### License
 
