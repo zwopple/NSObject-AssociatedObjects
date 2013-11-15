@@ -1,6 +1,8 @@
 # NSObject+AssociatedObjects
 
-Objective-C API for associated objects.
+Objective-C associated objects with friendly NSObject API.
+
+## Usage
 
 ```
 static const void *myKey = &myKey;
@@ -8,12 +10,29 @@ static const void *myKey = &myKey;
 [object setAssociatedObject:@"Hello" forKey:myKey policy:OBJC_ASSOCIATION_COPY_NONATOMIC];
 ```
 
-### Usage
+## Installation
 
-Cocoapods available simply just add this to your Podfile!
+Add `pod 'NSObject+AssociatedObjects', :git => 'https://github.com/zwopple/NSObject-AssociatedObjects.git'` to your `Podfile` and then run `pod install`.
 
-`pod "NSObject+AssociatedObjects", :git => "https://github.com/zwopple/NSObject-AssociatedObjects.git"`
+## License
 
-### License
+The MIT License (MIT)
 
-That MIT license thing, also known as use it however you like.
+Copyright (c) 2013 Zwopple Limited
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
